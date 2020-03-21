@@ -1,5 +1,5 @@
-let startPayment = document.getElementById('start'), //кнопка начать расчет
-    budgetValue = document.getElementsByClassName('budget-value')[0]; //поле - доход
+let startPayment = document.getElementById('start'); //кнопка начать расчет
+let budgetValue = document.getElementsByClassName('budget-value')[0]; //поле - доход
 let daybudgetValue = document.getElementsByClassName('daybudget-value')[0]; // поле на 1 день
 let levelValue = document.getElementsByClassName('level-value')[0];
 let expensesValue = document.getElementsByClassName('expenses-value')[0];
